@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SIGN UP</title>
+    <link rel="stylesheet" type="text/css"href="style.css">
+</head>   
+<form autocomplete method="POST" action="http://localhost:8080/DBMSAPP/SignUpServlet">
+    Name:<input type="text"name="name" placeholder="name" pattern="[a-zA-Z\s]{1,40}" title="only letters" required>
+    User Name:<input type="text" name="user_name" placeholder="User Name" pattern="[a-z0-9]{1,15}" title="only small letters/numbers max length is 15" required>
+    Password:<input type="password" name="psw" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,10}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+    Mobile No:<input type="text" name="no" placeholder="mobile no" pattern="[0-9]{10}"title="10 digit number" required>
+    Email id:<input type="email" name="email"placeholder="email id" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="character set followed by @ character set followed by . and two three letters" required>
+    <input type="submit"value="SIGN UP ">
+</head>    
+</html>

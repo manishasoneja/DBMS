@@ -1,0 +1,48 @@
+body {
+    background-image:url("https://images7.alphacoders.com/697/thumb-1920-697207.jpg");
+             background-repeat:no-repeat;
+              background-size:cover;
+}
+form {
+    margin: 20px auto;
+    width: 350px;
+    color: black;
+
+}
+input {
+    padding: 10px;
+    font-size:inherit;
+}
+input[type="text"] {
+    display:block;
+    margin-bottom: 25px;
+    width: 100%;
+    border:2px solid black;
+}
+input[type="password"] {
+    display:block;
+    margin-bottom: 25px;
+    width: 100%;
+    border:2px solid black;
+}
+input[type="email"] {
+    display:block;
+    margin-bottom: 25px;
+    width: 100%;
+    border:2px solid black;
+}
+input[type="submit"] {
+    display:block;
+    width: 370px;
+    height: 45px;
+    border: 2px solid black;
+}
+textarea {
+	display:block;
+	margin-bottom: 25px;
+	width:370px;
+	height:45px;
+	border: 2px solid black;
+	overflow:scroll;
+}
+
